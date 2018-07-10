@@ -24,7 +24,8 @@ import tf_utils
 
 slim = tf.contrib.slim
 
-DATA_FORMAT = 'NCHW'
+#DATA_FORMAT = 'NCHW'
+DATA_FORMAT = 'NHWC'
 
 # =========================================================================== #
 # SSD Network flags.
@@ -197,7 +198,7 @@ def main(_):
             num_ps_tasks=0)
         # Create global_step.
         with tf.device(deploy_config.variables_device()):
-            global_step = slim.create_global_step()
+            global_step = tf.train.create_global_step()
 
         # Select the dataset.
         dataset = dataset_factory.get_dataset(
