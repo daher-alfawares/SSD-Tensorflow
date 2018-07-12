@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>JPEGImages</folder>
 	<filename>WIN_20180709_16_22_26_Pro.jpg</filename>
-	<path>C:\Users\daher\Desktop\data\dataset\JPEGImages\WIN_20180709_16_22_26_Pro.jpg</path>
+	<path>/Users/lilyroter/Desktop/JPEGImages/WIN_20180709_16_22_26_Pro.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1010</xmin>
-			<ymin>942</ymin>
-			<xmax>1210</xmax>
-			<ymax>1190</ymax>
+			<xmin>939</xmin>
+			<ymin>925</ymin>
+			<xmax>1243</xmax>
+			<ymax>1202</ymax>
 		</bndbox>
 	</object>
 </annotation>

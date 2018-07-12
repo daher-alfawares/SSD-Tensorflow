@@ -1,7 +1,7 @@
 <annotation verified="yes">
-	<folder>c</folder>
+	<folder>JPEGImages</folder>
 	<filename>Photo on 7-10-18 at 3.49 PM #2.jpg</filename>
-	<path>/Users/nickjean-baptiste/Desktop/abc/c/Photo on 7-10-18 at 3.49 PM #2.jpg</path>
+	<path>/Users/lilyroter/Desktop/JPEGImages/Photo on 7-10-18 at 3.49 PM #2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>341</xmin>
-			<ymin>207</ymin>
-			<xmax>530</xmax>
-			<ymax>376</ymax>
+			<xmin>224</xmin>
+			<ymin>122</ymin>
+			<xmax>498</xmax>
+			<ymax>375</ymax>
 		</bndbox>
 	</object>
 </annotation>
